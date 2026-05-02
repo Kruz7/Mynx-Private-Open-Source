@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{ae1186a7-8256-4f2d-a013-c1eca6253a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{0fa2ba7f-55f1-465d-a8d9-b92b016e4d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mjLib">
+      <UniqueIdentifier>{ceb9320a-4946-40db-9cc9-a81ba760f44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{8b5359de-9109-42cd-ba98-e0dcbcd420db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Libraries\ImGui\include\ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\ImGui\include\ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\ImGui\include\ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\ImGui\include\ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\ImGui\include\ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\ImGui\include\ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\ImGui\include\ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\ImGui\include\ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\mjLib\include\mjLib\Console.hpp">
+      <Filter>mjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\mjLib\include\mjLib\Logger.hpp">
+      <Filter>mjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\mjLib\include\mjLib\mjLib.hpp">
+      <Filter>mjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\mjLib\include\mjLib\Process.hpp">
+      <Filter>mjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\mjLib\include\mjLib\String.hpp">
+      <Filter>mjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.hpp" />
+    <ClInclude Include="Game.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSDK.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Ped.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawImGui.hpp" />
+    <ClInclude Include="Menu.hpp">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.hpp">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.hpp">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.hpp">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="PrewiewModel.hpp">
+      <Filter>Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Libraries\ImGui\include\ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\ImGui\include\ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\ImGui\include\ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\ImGui\include\ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\ImGui\include\ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\ImGui\include\ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+</Project>

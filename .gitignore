@@ -1,0 +1,58 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# Build çıktıları (OutDir: Build\)
+Build/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww]in32/
+[Dd]esktop*/
+
+# MSVC / MSBuild
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+
+# Derlenmiş binary (yalnızca Build çıktısı — Libraries içindeki .lib saklanır)
+[Bb]in/**/*.exe
+[Bb]in/**/*.dll
+[Oo]bj/**/*.lib
+Build/**/*.exe
+Build/**/*.dll
+Build/**/*.lib
+
+# IntelliSense / vcpkg
+.ipch/
+
+# Diğer
+Thumbs.db
+Desktop.ini
